@@ -1,0 +1,104 @@
+[09-Oct-2014 17:52:02 UTC] PHP Parse error:  syntax error, unexpected '\' (T_NS_SEPARATOR), expecting identifier (T_STRING) in /home/dan/public_html/hub/php/twitter.php on line 47
+[09-Oct-2014 17:52:12 UTC] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) in /home/dan/public_html/hub/php/twitter.php on line 47
+[09-Oct-2014 17:56:52 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/dan/public_html/hub/php/setEmailForVerification.php on line 8
+[09-Oct-2014 18:02:23 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/dan/public_html/hub/php/emailSignup.php on line 9
+[09-Oct-2014 18:02:32 UTC] PHP Fatal error:  Call to undefined method user::doesPhoneExcist() in /home/dan/public_html/hub/php/emailSignup.php on line 14
+[09-Oct-2014 18:18:56 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/dan/public_html/hub/php/sendVerificationNewemail.php on line 8
+[09-Oct-2014 18:19:48 UTC] PHP Fatal error:  Call to undefined method user::doesPhoneExcist() in /home/dan/public_html/hub/php/sendVerificationNewemail.php on line 11
+[09-Oct-2014 18:23:42 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/dan/public_html/hub/php/updateEmail.php on line 6
+[09-Oct-2014 18:23:50 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/dan/public_html/hub/php/updateEmail.php on line 13
+[09-Oct-2014 18:28:35 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/dan/public_html/hub/php/updateEmail.php on line 29
+[09-Oct-2014 18:34:40 UTC] PHP Parse error:  syntax error, unexpected '$array' (T_VARIABLE), expecting ')' in /home/dan/public_html/hub/php/twitterLogin.php on line 60
+[10-Oct-2014 14:49:36 UTC] PHP Parse error:  syntax error, unexpected '$key' (T_VARIABLE), expecting identifier (T_STRING) in /home/dan/public_html/hub/php/api.php on line 3
+[10-Oct-2014 14:49:55 UTC] PHP Parse error:  syntax error, unexpected '$key' (T_VARIABLE), expecting function (T_FUNCTION) in /home/dan/public_html/hub/php/api.php on line 3
+[10-Oct-2014 14:56:46 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/dan/public_html/hub/php/testApi.php on line 8
+[10-Oct-2014 15:44:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/reports.php on line 21
+[10-Oct-2014 18:56:04 UTC] PHP Parse error:  syntax error, unexpected '$status' (T_VARIABLE) in /home/dan/public_html/hub/php/createCategory.php on line 9
+[10-Oct-2014 18:56:11 UTC] PHP Warning:  require(category.php): failed to open stream: No such file or directory in /home/dan/public_html/hub/php/createCategory.php on line 3
+[10-Oct-2014 18:56:11 UTC] PHP Fatal error:  require(): Failed opening required 'category.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dan/public_html/hub/php/createCategory.php on line 3
+[10-Oct-2014 18:57:23 UTC] PHP Fatal error:  Call to undefined method category::sendUserCode() in /home/dan/public_html/hub/php/categories.php on line 10
+[10-Oct-2014 20:25:15 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/dan/public_html/hub/php/api.php on line 20
+[10-Oct-2014 20:27:04 UTC] PHP Fatal error:  Maximum execution time of 50 seconds exceeded in /home/dan/public_html/hub/php/api.php on line 31
+[10-Oct-2014 20:27:54 UTC] PHP Fatal error:  Maximum execution time of 50 seconds exceeded in /home/dan/public_html/hub/php/api.php on line 20
+[10-Oct-2014 20:29:15 UTC] PHP Fatal error:  Maximum execution time of 50 seconds exceeded in /home/dan/public_html/hub/php/account.php on line 6
+[10-Oct-2014 20:49:00 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/dan/public_html/hub/php/user.php on line 532
+[10-Oct-2014 20:50:35 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/dan/public_html/hub/php/user.php on line 532
+[10-Oct-2014 20:52:23 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/dan/public_html/hub/php/user.php on line 532
+[10-Oct-2014 20:53:17 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/dan/public_html/hub/php/user.php on line 531
+[10-Oct-2014 20:58:43 UTC] PHP Fatal error:  Maximum execution time of 50 seconds exceeded in /home/dan/public_html/hub/php/api.php on line 29
+[10-Oct-2014 21:05:01 UTC] PHP Warning:  file_get_contents(): Couldn't resolve host name in /home/dan/public_html/hub/php/api.php on line 7
+[10-Oct-2014 21:05:01 UTC] PHP Warning:  file_get_contents(http://data.tmsapi.com/v1/movies/showings?startDate=2014-10-10&amp;zip=07055&amp;api_key=ve2ebfe3gzt9akcwzr5g26xf): failed to open stream: operation failed in /home/dan/public_html/hub/php/api.php on line 7
+[10-Oct-2014 21:12:49 UTC] PHP Warning:  file_get_contents(): Couldn't resolve host name in /home/dan/public_html/hub/php/api.php on line 7
+[10-Oct-2014 21:12:49 UTC] PHP Warning:  file_get_contents(http://data.tmsapi.com/v1/movies/showings?startDate=2014-10-10&amp;zip=07055&amp;api_key=ve2ebfe3gzt9akcwzr5g26xf): failed to open stream: operation failed in /home/dan/public_html/hub/php/api.php on line 7
+[11-Oct-2014 16:37:35 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 26
+[11-Oct-2014 16:37:35 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 27
+[11-Oct-2014 16:37:35 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 26
+[11-Oct-2014 16:37:35 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 27
+[11-Oct-2014 16:37:35 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 80
+[11-Oct-2014 16:37:35 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 81
+[11-Oct-2014 16:37:35 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 82
+[11-Oct-2014 16:37:35 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 80
+[11-Oct-2014 16:37:35 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 81
+[11-Oct-2014 16:37:35 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 82
+[11-Oct-2014 16:37:35 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 80
+[11-Oct-2014 16:37:35 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 81
+[11-Oct-2014 16:37:35 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 82
+[11-Oct-2014 16:38:10 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 80
+[11-Oct-2014 16:38:10 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 81
+[11-Oct-2014 16:38:10 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 82
+[11-Oct-2014 16:38:10 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 80
+[11-Oct-2014 16:38:10 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 81
+[11-Oct-2014 16:38:10 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 82
+[11-Oct-2014 16:38:10 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 80
+[11-Oct-2014 16:38:10 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 81
+[11-Oct-2014 16:38:10 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 82
+[11-Oct-2014 17:36:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/dan/public_html/hub/php/api.php on line 189
+[11-Oct-2014 17:37:01 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/dan/public_html/hub/php/api.php on line 190
+[11-Oct-2014 17:37:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dan/public_html/hub/php/api.php on line 172
+[11-Oct-2014 17:37:22 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/dan/public_html/hub/php/api.php on line 187
+[11-Oct-2014 17:38:04 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dan/public_html/hub/php/api.php on line 172
+[11-Oct-2014 17:38:04 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/dan/public_html/hub/php/api.php on line 187
+[11-Oct-2014 17:42:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dan/public_html/hub/php/api.php on line 172
+[11-Oct-2014 17:42:15 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/dan/public_html/hub/php/api.php on line 187
+[11-Oct-2014 17:42:40 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dan/public_html/hub/php/api.php on line 172
+[11-Oct-2014 17:42:40 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/dan/public_html/hub/php/api.php on line 188
+[11-Oct-2014 17:42:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dan/public_html/hub/php/api.php on line 172
+[11-Oct-2014 17:42:46 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/dan/public_html/hub/php/api.php on line 188
+[11-Oct-2014 17:43:55 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dan/public_html/hub/php/api.php on line 172
+[13-Oct-2014 15:08:45 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/dan/public_html/hub/php/getSubcategories.php on line 9
+[13-Oct-2014 15:30:59 UTC] PHP Warning:  file_get_contents(): Couldn't resolve host name in /home/dan/public_html/hub/php/api.php on line 14
+[13-Oct-2014 15:30:59 UTC] PHP Warning:  file_get_contents(http://data.tmsapi.com/v1/movies/showings?startDate=2014-10-13&amp;zip=07055&amp;api_key=ve2ebfe3gzt9akcwzr5g26xf): failed to open stream: operation failed in /home/dan/public_html/hub/php/api.php on line 14
+[13-Oct-2014 15:31:08 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 27
+[13-Oct-2014 15:31:08 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 28
+[13-Oct-2014 15:33:43 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 27
+[13-Oct-2014 15:33:43 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dan/public_html/hub/php/api.php on line 28
+[13-Oct-2014 15:58:43 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/dan/public_html/hub/php/api.php on line 27
+[13-Oct-2014 16:30:35 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 113
+[13-Oct-2014 16:30:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 113
+[13-Oct-2014 16:30:53 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 113
+[13-Oct-2014 16:31:55 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 113
+[13-Oct-2014 16:32:16 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 113
+[13-Oct-2014 16:35:35 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 113
+[13-Oct-2014 16:36:13 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 113
+[13-Oct-2014 16:36:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 113
+[13-Oct-2014 16:37:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 113
+[13-Oct-2014 16:37:49 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 113
+[13-Oct-2014 16:39:13 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 113
+[13-Oct-2014 16:39:56 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 113
+[13-Oct-2014 16:47:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 113
+[13-Oct-2014 16:52:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 113
+[13-Oct-2014 16:56:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 113
+[13-Oct-2014 16:56:45 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 113
+[13-Oct-2014 16:57:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 113
+[13-Oct-2014 16:57:44 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 113
+[13-Oct-2014 16:59:09 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 113
+[13-Oct-2014 17:57:07 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/setting.php on line 19
+[13-Oct-2014 17:57:07 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/setting.php on line 55
+[13-Oct-2014 17:57:07 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/dan/public_html/hub/php/setting.php on line 34
+[13-Oct-2014 18:00:33 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 115
+[13-Oct-2014 18:41:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 115
+[13-Oct-2014 19:26:27 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 115
+[13-Oct-2014 22:01:41 UTC] PHP Parse error:  syntax error, unexpected ''picture'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/dan/public_html/hub/php/chat.php on line 67
+[13-Oct-2014 22:39:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 115
+[13-Oct-2014 23:52:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 115
+[13-Oct-2014 23:53:04 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dan/public_html/hub/php/subcategory.php on line 115

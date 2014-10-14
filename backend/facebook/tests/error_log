@@ -1,0 +1,2 @@
+[17-Sep-2014 15:58:58 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/dan/public_html/push/php/facebook/tests/GraphUserTest.php on line 7
+[17-Sep-2014 15:59:15 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/dan/public_html/push/php/facebook/tests/GraphSessionInfoTest.php on line 8

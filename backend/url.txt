@@ -1,0 +1,24 @@
+//twitter log in
+http://combustionlaboratory.com/hub/php/twitterLogin.php?user=broseidon_x&device=iphone
+//send email for initial verification for new user
+http://combustionlaboratory.com/hub/php/setEmailForVerification.php?username=papi%20luis%20:P%20&email=perezlu862@gmail.com
+//sign up with email
+http://combustionlaboratory.com/hub/php/emailSignup.php?username=papi%20luis&name=Luis%20Perez&email=perezlu862@gmail.com&password=culos159&code=10773
+//send update new email verification
+http://combustionlaboratory.com/hub/php/sendVerificationNewemail.php?user_id=6&email=luis@combustioninnovation.com
+//confirm new email code 
+http://combustionlaboratory.com/hub/php/updateEmail.php?user_id=6&email=luis@combustioninnovation.com&code=3970
+//facebook sign in and sign up
+http://combustionlaboratory.com/hub/php/loginuser.php
+//likes and dislikes 
+http://combustionlaboratory.com/hub/php/like.php?user_id=354&comment_id=6546&score=2
+//make report on comment_id
+http://combustionlaboratory.com/hub/php/report.php?user_id=654&comment_id=654&reported=1
+//get the subcategories using category ID 
+http://combustionlaboratory.com/hub/php/getSubcategories.php?category_id=9
+//settings 
+http://combustionlaboratory.com/hub/php/settings.php?user_id=65&private=0&push_notification=1
+// add a comment to a subcategory chat type 0 is jst text type 1 is a picture and type 2 is a video
+http://combustionlaboratory.com/hub/php/addChat.php?comment=yay%20first%20@brosiris%20comment&user_id=5416&category_id=9&subcategory_id=213&type=0
+//get comments from subcategory for the chat 
+http://combustionlaboratory.com/hub/php/getChat.php?category_id=9&subcategory_id=213&last=0
